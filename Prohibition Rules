@@ -88,7 +88,7 @@
 			</case>
 		</rule>
 		<rule>
-			<rule-name>Stay-With-Less-Power</rule-name>
+			<rule-name>Stay-With-Low-Power</rule-name>
 			<device-type>Actuators</device-type>
 			<case>
 				<condition>
