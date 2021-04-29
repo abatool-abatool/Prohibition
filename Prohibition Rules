@@ -31,7 +31,7 @@
 					<device>Smart-Wheelchair</device>
 				</condition>
 				<action>
-					<action-type>Hold-User-Firmyly</action-type>
+					<action-type>Do-Not-Go-Closer-To-Obstacles</action-type>
 				</action>
 			</case>
 			<case>
