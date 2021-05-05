@@ -94,9 +94,10 @@
 				<condition>
 					<device>Smart-Robot</device>
 				</condition>
-				<action>
-					<action-type>Notify-Next-Robot-And-Move-Towards-Power-Station</action-type>
-				</action>
+				<action-sequence>
+   	          			<action>Notify-Next-Robot</action>
+   	          			<action>Move-Towards-Power-Station</action>
+   	    			</action-sequence>
 			</case>
 			<case>
 				<condition>
