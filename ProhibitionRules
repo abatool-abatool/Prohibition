@@ -1,13 +1,13 @@
 <prohibition-rule id="R3">
 		<rule>
 			<rule-name>Harm-Users</rule-name>
-			<device-type>Actuators</device-type>
+			<device-type>Devices</device-type>
 			<case>
 				<condition>
 					<device>Smart-Robot</device>
 				</condition>
 				<action>
-					<action-type>Go-Closer-To-User</action-type>
+					<action-type>Stay<within>3-Meter<within>Distance</action-type>
 				</action>
 			</case>
 			<case>
@@ -45,7 +45,7 @@
 		</rule>
 		<rule>
 			<rule-name>Move-Out-Of-Range</rule-name>
-			<device-type>Actuators</device-type>
+			<device-type>Devices</device-type>
 			<case>
 				<condition>
 					<device>Smart-Robot</device>
@@ -89,7 +89,7 @@
 		</rule>
 		<rule>
 			<rule-name>Stay-With-Low-Power</rule-name>
-			<device-type>Actuators</device-type>
+			<device-type>Devices</device-type>
 			<case>
 				<condition>
 					<device>Smart-Robot</device>
